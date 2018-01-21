@@ -1,4 +1,5 @@
 ﻿using System;
+using CodeRust.LinkedList;
 
 namespace CodeRust
 {
@@ -6,7 +7,7 @@ namespace CodeRust
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            RemoveDuplicatesTest.Run();
         }
     }
 }
