@@ -140,5 +140,19 @@ namespace CodeRust.LinkedList
       pointer.Next = temp;
       return pointer;
     }
+
+    public static int Length<T>(this ListNode<T> head)
+    {
+      if(head == null) return 0;
+      int count = 0;
+      var pointer = head;
+      while(pointer != null)
+      {
+        pointer = pointer.Next;
+        count++;
+      }
+
+      return count;
+    }
   }
 }

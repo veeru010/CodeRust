@@ -7,7 +7,7 @@ namespace CodeRust
     {
         static void Main(string[] args)
         {
-            MergeSortedListTest.Run();
+            AddTwoIntegersTest.Run();
         }
     }
 }
