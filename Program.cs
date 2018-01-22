@@ -1,5 +1,6 @@
 ﻿using System;
 using CodeRust.LinkedList;
+using CodeRust.Math;
 
 namespace CodeRust
 {
@@ -7,7 +8,7 @@ namespace CodeRust
     {
         static void Main(string[] args)
         {
-            AddTwoIntegersTest.Run();
+            FindPermutationTest.Run();
         }
     }
 }
