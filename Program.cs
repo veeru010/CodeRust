@@ -8,7 +8,7 @@ namespace CodeRust
     {
         static void Main(string[] args)
         {
-            FindKthPermutationTest.Run();
+            IntegerDivisionTest.Run();
         }
     }
 }
