@@ -8,7 +8,7 @@ namespace CodeRust
     {
         static void Main(string[] args)
         {
-            PythagoreanTripletsTest.Run();
+            PossibleSumCombinationsTest.Run();
         }
     }
 }
